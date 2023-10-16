@@ -16,7 +16,7 @@ public class PaymentPage extends MainPage{
 
     @Step("Check whether text contains {textMoney}")
     public PaymentPage checkTheText(String textMoney){
-        amountOfMoneyToPay.shouldHave(Condition.text(textMoney), Duration.ofSeconds(10));
+        amountOfMoneyToPay.shouldHave(Condition.text(textMoney));
         return this;
     }
 }

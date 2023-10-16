@@ -17,9 +17,13 @@ public class HomePage extends MainPage{
 
     private final SelenideElement continueBtn = $x("//button[contains(text(),'Продолжить')]");
 
+    private final SelenideElement frame = $x("//iframe[contains(@class, 'bepaid-iframe')]");
+
+
     @Step("Clicking continue button and go to payment page")
     public PaymentPage clckContinueToPaymentPage(){
         continueBtn.click();
+        switchTo().frame(frame);
         return page(PaymentPage.class);
     }
 

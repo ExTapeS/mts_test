@@ -10,7 +10,7 @@ public class AmountOfMoneyTest extends MainTest {
     @Test(priority = 1)
     @Severity(SeverityLevel.MINOR)
     @Story("Choosing amount of money to pay and then check the actual amount displayed")
-    public void registerAUser() {
+    public void checkingAmountOfMoneyThatWillBePayedOnPaymentPage() {
         mainPage.openAWebsite("https://www.mts.by/").maximizeTheWindow();
         homePage.fillInAmountOfMoney(MONEY_TO_PAY)
                 .fillInEmail("buguraev94@gmail.com")

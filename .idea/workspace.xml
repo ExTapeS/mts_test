@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa7dd79-24b6-4cc1-adcb-632ec26f3814" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+    <list default="true" id="0aa7dd79-24b6-4cc1-adcb-632ec26f3814" name="Changes" comment="i got that frame">
+      <change beforePath="$PROJECT_DIR$/src/test/java/AmountOfMoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AmountOfMoneyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +74,16 @@
       <updated>1697451565170</updated>
       <workItem from="1697451566659" duration="5870000" />
       <workItem from="1697458048298" duration="706000" />
-      <workItem from="1697482224697" duration="351000" />
+      <workItem from="1697482224697" duration="1125000" />
     </task>
+    <task id="LOCAL-00001" summary="i got that frame">
+      <created>1697482808885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482808885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="i got that frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="i got that frame" />
   </component>
 </project>

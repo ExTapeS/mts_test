@@ -27,7 +27,7 @@ public class HomePage extends MainPage{
         return page(PaymentPage.class);
     }
 
-    @Step("Filling in number with {phoneNumber}")
+    @Step("Filling in number with +375{phoneNumber}")
     public HomePage fillInNumber(String phoneNumber){
         phoneNmbrFld.sendKeys(phoneNumber);
         return this;
